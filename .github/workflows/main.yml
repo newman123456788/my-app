@@ -9,7 +9,6 @@ branches: [ main ]
 jobs:
 build:
 
-```
 runs-on: ubuntu-latest
 
 steps:
@@ -27,4 +26,3 @@ steps:
 
 - name: Run unit tests
   run: ./gradlew testDebugUnitTest
-```
